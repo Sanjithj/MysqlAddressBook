@@ -26,6 +26,8 @@ public class Mysql {
 		 insert into address_book values("Vikas","Hansraj","Vizar","Bangalore","TamilNadu",4133756,9654644429,"sanjay@gmail.com");
 		 insert into address_book values("Elwin","Das","Velankani","Mumbai","Bombay",509338,7867656202,"veera@gmail.com");
 		   
+		 update address_book set city="Arsikere" where first_name = "Sanjith";
+		     
 	}
 
 }
