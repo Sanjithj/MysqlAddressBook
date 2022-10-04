@@ -30,6 +30,18 @@ public class Mysql {
 		 
 		 delete from address_book  where first_name = "Sanjith";
 	     
+		 select * from address_book where city = "Hassan" or state = "Karnataka";
+
+	     select count(state&city) from address_book;
+
+	     select * from address_book order by first_name;
+	     
+	     alter table address_book add column name varchar(45);
+
+	     update address_book set name = "Friend" where first_name = "Vikas";
+	     
+		 insert into address_book values("Sanjith","Vallag","Rajkumar","Hassan","Karnataka",573103,9664564653,"sanjithj@gmail.com","Friend","Family");
+		
 		     
 	}
 
