@@ -27,6 +27,9 @@ public class Mysql {
 		 insert into address_book values("Elwin","Das","Velankani","Mumbai","Bombay",509338,7867656202,"veera@gmail.com");
 		   
 		 update address_book set city="Arsikere" where first_name = "Sanjith";
+		 
+		 delete from address_book  where first_name = "Sanjith";
+	     
 		     
 	}
 
